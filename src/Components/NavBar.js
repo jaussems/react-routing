@@ -6,19 +6,15 @@ export default function NavBar() {
     <nav>
       <ul>
         <li>
-          <NavLink exact={true} to="/">
+          <NavLink exact="true" to="/">
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink exact={true} to="/discover">
-            Discover
-          </NavLink>
+          <NavLink to="/discover">Discover</NavLink>
         </li>
         <li>
-          <NavLink exact={true} to="about">
-            About
-          </NavLink>
+          <NavLink to="about">About</NavLink>
         </li>
       </ul>
     </nav>
