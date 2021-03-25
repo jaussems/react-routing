@@ -1,0 +1,16 @@
+nav {
+  font-size: 30px;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+ul {
+  margin: 0 30px;
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  padding: 5px;
+  text-align: center;
+}
